@@ -9,7 +9,3 @@ datasource db {
   provider = "sqlite"
   url      = "file:./dev.db"
 }
-
-model Choice {
-  choice String @id
-}
